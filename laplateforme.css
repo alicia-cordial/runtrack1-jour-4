@@ -1,0 +1,287 @@
+/* ==================== */
+/* Index                */
+/* 1.Sélecteurs         */
+/* 2.Classes            */
+/* 3.ID                 */
+/* 4.Polices            */
+/* ==================== */
+
+/* ==================== */
+/* 1.Sélecteurs */
+/* ==================== */
+* {
+  font-family: "Roboto", sans-serif;
+  margin:0;
+  padding:0;
+}
+
+body {
+  background: linear-gradient(#88c1d0, white);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Space Mono", monospace;
+  color: #275fa0;
+}
+
+a {
+  text-decoration: none;
+  color: #275fa0;
+}
+
+a:hover {
+  color: #ffca4b;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+nav li {
+  font-family: "Space Mono", monospace, Impact;
+}
+
+iframe {
+padding: 20px;
+border-radius: 50px;
+}
+
+
+
+
+button {
+  background-color: #ffca4b;
+  border: solid 1px white;
+  border-radius: 25px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #88c1d0;
+  color: white;
+}
+footer{
+  background-color:lightblue;
+	
+}
+
+/* ==================== */
+/* 2.Classes            */
+/* ==================== */
+
+
+.column {
+	
+	background-color: white;
+	margin: 20px;
+	justify-content: center;
+	padding: 50px;
+	font-size: 12px;
+	box-shadow: 5px 5px 10px grey;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 30px;
+	border-radius: 25px;
+
+}
+
+.column li {
+text-align: left;
+list-style-type: circle;	
+	
+}
+
+.column h3,p {
+text-align: justify;
+	
+}
+
+.article1 h1, h3{
+padding-bottom: 20px;
+	
+}
+
+.article1 button{
+margin: 10px;
+
+}
+.article3 {
+border-style: solid;
+border-color: white;
+border-radius: 25px;
+padding: 50px;
+}
+
+
+.lienPoleEmploi {
+border-radius: 10px;	
+	
+}
+
+.article1 img {
+	width:50%;
+}
+.article1 li { 
+text-align:left;
+}
+
+
+
+.presentation, .soutiens
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.video
+{
+   margin-bottom: 30px;
+    margin-top: 10px;
+   text-align: center;
+}
+
+.rectangle{
+  position:relative;
+  background-color:#FFFFFF;
+  width:40%;
+  column-count:2;
+  column-gap:0;
+  display:inline-block;
+  font-size:0.8em;
+}
+
+.rectangle:hover{
+  cursor:crosshair;
+  box-shadow:2px 0 2px #3F6CA6, 0 2px 2px #3F6CA6, -2px 0 2px #3F6CA6, 0 -2px 2px #3F6CA6;
+}
+
+.iconRectangle{
+  width:40%;
+  padding-top:7px;
+  margin-left:-80px;
+}
+
+.article4 #gaucheArticle4{
+  margin-bottom:20px;
+}
+
+
+
+
+/* ==================== */
+/* 3.ID                 */
+/* ==================== */
+
+#listeNavTop {
+  display: flex;
+  background-color: #f7f1e4da;
+  padding: 20px;
+  font-family: "Space Mono", monospace;
+}
+
+#logoAccueilGauche {
+  width: 10%;
+}
+
+#encartVideo h5,h6 {
+padding-bottom: 10px;	
+	
+}
+
+ #livreBleu, #ampouleBleu, #ordinateurBleu, #chapeauBleu {
+
+	width: 30%;
+ }
+#container {
+  margin: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 15px;
+  border-style: solid;
+  border-color: white;
+  background-color: #f7f1e4da;
+  text-align: center;
+  border-radius: 25px;
+}
+
+
+
+#footerLaPlateforme, #footerLesFormations {
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#footerLaPlateforme li { 
+	display: inline-block;
+	
+}
+
+#footerLesFormations li {
+	display: inline-block;
+	
+}
+
+#formulaire li {
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 5px;
+}
+
+#formulaire ul {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#formulaire label {
+  font-family: "Roboto", sans-serif;
+  margin-right: 50px;
+  text-align: right;
+}
+
+#plan {
+  align-items: center;
+  
+}
+
+#droiteArticle4 h2{
+  position:absolute;
+  text-align:center;
+  left:35%;
+  top:20%;
+  padding-right:10px;
+}
+
+#gaucheArticle4 h4{
+  padding-top:10px;
+  margin-top:10px;
+  text-align:center;
+  padding-bottom:5px;
+  color:#275EA2;
+}
+
+#gaucheArticle4 p{
+  text-align:center;
+}
+
+/* ==================== */
+/* 4.Polices            */
+/* ==================== */
